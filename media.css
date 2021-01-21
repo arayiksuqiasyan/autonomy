@@ -1,0 +1,33 @@
+@media (max-width:1200px){
+    .container{
+        width: 800px;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 395px;
+    }
+    .dzuk{
+        flex-wrap: wrap;
+    }
+    .left,.right,.left1,.right1{
+        width: 100%;
+    }
+    .maecenas{
+        flex-wrap: wrap;
+    }
+    nav a:not(.menu-btn){
+        display: none;
+    }
+ 
+    .menu-btn{
+        display: block;
+    }
+}
+
+@media (max-width:800px){
+    .card{
+        width: 800px;
+    }
+}
